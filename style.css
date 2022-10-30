@@ -1,0 +1,83 @@
+/* ===== IMPORT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* ===== VARIABLES ===== */
+* {
+  --dark-cyan: #087e9c;
+  --medium-cyan: #18a6c9;
+  --light-cyan: #3dd6fc;
+  --dark-grey: #383838;
+  --medium-grey: #737373;
+  --light-grey: #a6a6a6;
+}
+
+/* ===== GLOBAL ===== */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: var(--dark-grey);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+/* ----- Elements ----- */
+.ml--2 {
+  margin-left: 2rem;
+}
+
+.btn {
+  height: 3rem;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  background-color: var(--dark-cyan);
+  font-size: 1rem;
+  color: white;
+  border-radius: 1.5rem;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--medium-cyan);
+}
+
+/* ----- Behaviours ----- */
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+/* ===== CLASSES ===== */
+/* ----- Header ----- */
+#header {
+  height: 5rem;
+  padding: 0 2rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.link-menu:hover {
+  border-bottom: #000 solid 0.1rem;
+}
+
+/* ----- Hero ----- */
+/* ----- Pricing ----- */
+/* ----- Blogs ----- */
+/* ----- Contact Us ----- */
+/* ----- Footer ----- */
