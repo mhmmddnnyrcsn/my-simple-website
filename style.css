@@ -26,6 +26,11 @@ a {
 }
 
 /* ----- Elements ----- */
+.container {
+  margin-top: 2rem;
+  padding: 2rem 2rem;
+}
+
 .ml--2 {
   margin-left: 2rem;
 }
@@ -52,6 +57,10 @@ a {
   display: flex;
 }
 
+.flex-direction-column {
+  flex-direction: column;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -66,7 +75,7 @@ a {
 
 /* ===== CLASSES ===== */
 /* ----- Header ----- */
-#header {
+/* #header {
   height: 5rem;
   padding: 0 2rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -74,9 +83,38 @@ a {
 
 .link-menu:hover {
   border-bottom: #000 solid 0.1rem;
-}
+} */
 
 /* ----- Hero ----- */
+.hero-title {
+  margin: 0;
+  color: var(--dark-cyan);
+}
+
+.hero-subtitle {
+  margin: 1rem 0;
+  font-weight: 500;
+  color: var(--medium-cyan);
+}
+
+.btn-group {
+  margin: 2rem;
+}
+
+.btn-contact {
+  background-color: #fff;
+  color: var(--dark-grey);
+}
+
+.btn-contact:hover {
+  background-color: var(--light-grey);
+}
+
+.hero-img {
+  max-width: 50%;
+  border-radius: 1rem;
+}
+
 /* ----- Pricing ----- */
 /* ----- Blogs ----- */
 /* ----- Contact Us ----- */
