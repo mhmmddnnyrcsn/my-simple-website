@@ -42,6 +42,12 @@ a {
   color: var(--light-grey);
 }
 
+.card {
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 .ml--2 {
   margin-left: 2rem;
 }
@@ -131,7 +137,7 @@ a {
 } */
 
 /* ----- Pricing ----- */
-.cards-pricing {
+/* .cards-pricing {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
@@ -186,8 +192,54 @@ a {
   position: relative;
   left: 3rem;
   bottom: 1.5rem;
-}
+} */
 
 /* ----- Blogs ----- */
+.blog-cards {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.blog-card__img {
+  height: 15rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.blog-img1 {
+  background-image: url(./assets/img/blog1.jpg);
+}
+
+.blog-img2 {
+  background-image: url(./assets/img/blog2.jpg);
+}
+
+.blog-img3 {
+  background-image: url(./assets/img/blog3.jpg);
+}
+
+.blog-img4 {
+  background-image: url(./assets/img/blog4.jpg);
+}
+
+.blog-card__info {
+  padding: 1rem 1rem;
+}
+
+.blog-card__author {
+  font-weight: bold;
+  color: var(--dark-cyan);
+}
+
+.blog-card__time {
+  font-size: 0.75rem;
+  color: var(--light-grey);
+}
+
+.blog-card__title {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.25rem;
+}
+
 /* ----- Contact Us ----- */
 /* ----- Footer ----- */
