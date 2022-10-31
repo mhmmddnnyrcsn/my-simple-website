@@ -98,6 +98,10 @@ a {
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -254,7 +258,7 @@ a {
 } */
 
 /* ----- Contact Us ----- */
-.company-info {
+/* .company-info {
   padding: 0 2rem;
 }
 
@@ -302,6 +306,11 @@ a {
 
 .btn-form {
   margin: 1rem;
-}
+} */
 
 /* ----- Footer ----- */
+#footer {
+  height: 5rem;
+  background-color: var(--dark-cyan);
+  color: #fff;
+}
