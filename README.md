@@ -3,7 +3,7 @@
 <!-- PROJECT -->
 <br />
 <div align="center">
-  <h3 align="center">Mucodevde</h3>
+  <h3 align="center">Mucodevde Project</h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,8 +30,8 @@ Build simple website with HTML and CSS
 ### Built With
 This section should list any major technologies used to bootstrap this project. Here are a few examples.
 
-* [![HTML]][HTML-url]
-* [![CSS]][CSS-url]
+* [HTML][HTML-url]
+* [CSS][CSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
